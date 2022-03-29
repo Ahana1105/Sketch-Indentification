@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(214, 255, 255);
+}
+
+h1 {
+  font-family: 'Creepster', cursive;
+  font-size: 60;
+  background-color:honeydew;
+}
+
+#show_sketch{
+float:right;
+font-size:20;
+font-family: cursive;
+padding-top: 20;
+padding-bottom: 15;
+}
+
+p {
+    font-family: monospace;
+    font-size: 22;
+    color:darkcyan;
+}
+
+@keyframes example{
+from{box-shadow: 1px 1px 38px grey;}
+to{box-shadow: 1px 1px 38px white;}
+}
+
+canvas { 
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: white;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+#clearCanvas {
+margin-top: 350;
+}
